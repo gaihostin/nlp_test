@@ -21,9 +21,10 @@ public class convertCh2Num {
 
 
     public static final String[] arrNum = new String[] {"0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10",
-            "11", "12", "13", "14", "15", "16", "17", "18", "19"};
+            "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "30", "40", "50", "60", "70", "80", "90"};
     public static final String[] arrCh = new String[] {"零", "一", "二", "三", "四", "五", "六", "七", "八", "九",
-            "十", "十一", "十二", "十三", "十四", "十五", "十六", "十七", "十八", "十九"};
+            "十", "十一", "十二", "十三", "十四", "十五", "十六", "十七", "十八", "十九",
+            "二十", "三十", "四十", "五十", "六十", "七十", "八十", "九十"};
 
 
     public static HashMap<String, String> ch2num = new HashMap<String, String>();
@@ -61,7 +62,7 @@ public class convertCh2Num {
             return name;
         }
 
-        if (name.length() <= 2) {
+        if (name.length() <= 1) {
             if (StringUtils.isNotBlank(num2ch.get(name))) {
                 return num2ch.get(name);
             } else {

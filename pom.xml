@@ -27,11 +27,6 @@
             <version>1.2.5</version>
         </dependency>
 
-        <dependency>
-            <groupId>com.alibaba.etao.igraph</groupId>
-            <artifactId>igraph-client</artifactId>
-            <version>0.2.3-SNAPSHOT</version>
-        </dependency>
 
         <dependency>
             <groupId>com.taobao.vdump</groupId>
@@ -50,6 +45,19 @@
             <groupId>org.ansj</groupId>
             <artifactId>ansj_seg</artifactId>
             <version>5.0.0</version>
+        </dependency>
+
+
+        <dependency>
+            <groupId>com.github.stuxuhai</groupId>
+            <artifactId>jpinyin</artifactId>
+            <version>1.1.8</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.belerweb</groupId>
+            <artifactId>pinyin4j</artifactId>
+            <version>2.5.0</version>
         </dependency>
 
     </dependencies>
